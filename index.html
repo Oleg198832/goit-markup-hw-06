@@ -437,11 +437,15 @@
             <input class="form-input-email comit" type="text" name="comit" id="comit" placeholder="Введите текст" />
           </div>
         </form>
-        <div>
-          <p class="text-form">
-            Соглашаюсь с рассылкой и принимаю
-            <a class="link" href=""><span class="form-link">Условия договора</span> </a>
-          </p>
+        <div class="form-checkbox">
+          <input class="form-input-checkbox" type="checkbox" name="topic" value="agreement" id="agreement" />
+          <svg class="icon-border" width="16" height="15">
+            <use href="./images/sprite.svg#icon-border"></use>
+          </svg>
+          <label for="agreement" class="text-form label"
+            >Соглашаюсь с рассылкой и принимаю
+            <a class="link" href=""><span class="form-link">Условия договора</span></a></label
+          >
         </div>
         <div>
           <button type="submit" class="form-button">Отправить</button>
